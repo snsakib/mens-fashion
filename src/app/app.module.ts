@@ -14,6 +14,7 @@ import {
   MatListModule
 } from '@angular/material';
 import { HomeModule } from './home/home.module';
+import { ProductsPageModule } from './products-page/products-page.module';
 
 @NgModule({
   declarations: [AppComponent, MainNavComponent],
@@ -27,6 +28,7 @@ import { HomeModule } from './home/home.module';
     MatIconModule,
     MatListModule,
     HomeModule,
+    ProductsPageModule,
     AppRoutingModule
   ],
   providers: [],
